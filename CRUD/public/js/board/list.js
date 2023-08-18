@@ -17,7 +17,7 @@ const components = list.map((row) => {
 const tbody = document.querySelector("tbody")
 tbody.innerHTML = components
 
-const clearbtn = document.querySelector(".clear btn")
+const clearbtn = document.querySelector(".clear")
 clearbtn.onclick = () => {
     storage.clear()
     location.href = "./list.html"

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script type="module" src="../public/js/board/modify.js"></script>
+    </head>
+    <body>
+        <h1><a href="/">Logo</a></h1>
+
+        <h2>수정하기</h2>
+        <form id="modify-form">
+            <ul style="list-style: none;">
+                <li>
+                    <span>제목: </span>
+                    <input id="title" type="text" name="title" value="제목입니다." />
+                </li>
+                <li>
+                    <span>작성자: </span>
+                    <input id="writer" type="text" name="writer" value="작성자 입니다." />
+                </li>
+                <li>
+                    <textarea style="resize:none;" cols=50 rows=20 id="content" name="content">내용입니다.</textarea>
+                </li>
+            </ul>
+
+            <button id="modify" type="submit">수정</button>
+        </form>
+    </body>
+</html>

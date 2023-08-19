@@ -1,4 +1,4 @@
-import { INITIAL_STORAGE, STORAGE_NAME, INITIAL_ID, INCREMENT_STEP } from "./constants.js"
+import { INITIAL_STORAGE, STORAGE_NAME, INITIAL_ID, INCREMENT_STEP } from "./const.js"
 
 class Storage {
     name

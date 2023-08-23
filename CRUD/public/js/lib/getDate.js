@@ -8,3 +8,4 @@ export const getDate = () => {
     const dateStr = `${year}-${month}-${day} | ${hour}:${minute}`
     return dateStr
 }
+

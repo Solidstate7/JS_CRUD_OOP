@@ -13,7 +13,7 @@ class BoardRow {
         this.title = row.title
         this.content = row.content
         this.writer = row.writer
-        this.created_at = getDate();
+        this.created_at = new Date(Date.now()).toLocaleDateString();
         this.hit = 0
     }
 }
